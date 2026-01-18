@@ -34,7 +34,7 @@ test.py
 <img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" />새책등록했을때 
 ISBN이 중복될 경우, 신규 행이 만들어지지않고 남은권수가 등록수량만큼 증가함 
 
-<img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" /><br><br>책 db화면
+<img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" /><br><br>책 db화면 books테이블
 
 <img width="1918" height="799" alt="library4" src="https://github.com/user-attachments/assets/636d3a4a-d6ad-4118-bf3c-111b19c16f0f" /><br><br> 책 검색 실행 (contain함수어쩌고
 
