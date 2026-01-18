@@ -10,6 +10,7 @@ Tool: PyCharm
 
 
 주요기능
+라우팅방식으로 통신했고
 1.사용자관리: 회원가입 및 로그인 (flask.session을 활용)<br>
 2. 도서관리: 도서 등록 및 카테고리별 조건 검색<br>
 3. 대여시스템: 실시간 대여 처리 및 재고 관리, 개인 대여 목록 조회<br>
@@ -24,10 +25,11 @@ test.py
 
 
 
-<img width="500" height="150" alt="library1" src="https://github.com/user-attachments/assets/694783b8-faf5-4b53-be15-3fa9be025a73" /> 로그인화면 
+<img width="500" height="150" alt="library1" src="https://github.com/user-attachments/assets/694783b8-faf5-4b53-be15-3fa9be025a73" /> 로그인화면 로그인 성공 시 app.secret_key를 활용해 user_id를 생성하여 페이지 이동 시에도 사용자의 user_id가 유지됩니다.      
+
 <img width="500" height="350" alt="library1_1" src="https://github.com/user-attachments/assets/e543e830-cff0-4a29-8c7d-031f2756141b" /> 회원가입 후 db에 정보가 저장됨
 
-<img width="910" height="330" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /> 로그인 후 메인화면     <br><br>
+<img width="910" height="330" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /> 로그인 후 메인화면 render_template을 통해 HTML로 전달 후 html에서 테이블 형식으로 출력   <br><br>
 
 <img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" />새책등록화면 isbn코드가 같으면 수량만 증가하고 다르면 행이 늘어나면서 행에 정보가 작성됨<br><br>
 
