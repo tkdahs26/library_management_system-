@@ -31,7 +31,7 @@ test.py
 
 <img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" />새책등록화면 isbn코드가 같으면 수량만 증가하고 다르면 행이 늘어나면서 행에 정보가 작성됨<br><br>
 
-<img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" /><br><br>
+<img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" /><br><br>책 db화면
 
 <img width="1918" height="799" alt="library4" src="https://github.com/user-attachments/assets/636d3a4a-d6ad-4118-bf3c-111b19c16f0f" /><br><br>
 
