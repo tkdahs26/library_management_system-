@@ -39,7 +39,7 @@ ISBN이 중복될 경우, 신규 행이 만들어지지않고 남은권수가 �
 <img width="1918" height="799" alt="library4" src="https://github.com/user-attachments/assets/636d3a4a-d6ad-4118-bf3c-111b19c16f0f" /><br><br> 책 검색 실행 contains함수를 사용해서 harry potter 를 검색했을때 potter만 검색해도 검색결과가 뜨고 
 JavaScript를 통해 사용자에게 알림
 
-<img width="1915" height="749" alt="library5" src="https://github.com/user-attachments/assets/18bc7da5-d114-4851-bb1d-17498ac180cf" /><br><br>책 대여하기 실행하면 남은권수가 하나 줄어듬
+<img width="1915" height="749" alt="library5" src="https://github.com/user-attachments/assets/18bc7da5-d114-4851-bb1d-17498ac180cf" /><br><br>책 대여하기에 성공하면 total_copies값을 -1해서 db에 넘김 남은권수가 하나 줄어듬
 
 <img width="1910" height="749" alt="library5_1" src="https://github.com/user-attachments/assets/e31458a5-d794-48c3-a433-bdbb0a045d9d" /><br><br>대여했을때 유저의 user_id 값과 빌린 book_id 값을 db에 저장
 <img width="1910" height="749" alt="library6" src="https://github.com/user-attachments/assets/c1d6a59a-20fc-4492-b929-defcaf886b54" /><br><br>
