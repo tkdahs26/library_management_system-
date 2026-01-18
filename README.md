@@ -10,16 +10,16 @@ Tool: PyCharm
 
 
 주요기능
-1.사용자관리: 회원가입 및 로그인 (flask.session을 활용)
-2. 도서관리: 도서 등록 및 카테고리별 조건 검색
-3. 대여시스템: 실시간 대여 처리 및 재고 관리, 개인 대여 목록 조회
+1.사용자관리: 회원가입 및 로그인 (flask.session을 활용)<br>
+2. 도서관리: 도서 등록 및 카테고리별 조건 검색<br>
+3. 대여시스템: 실시간 대여 처리 및 재고 관리, 개인 대여 목록 조회<br>
 
 
-서버 실행
+서버 실행<br>
 main.py
 
 
-기능 테스트
+기능 테스트<br>
 test.py
 
 
@@ -27,9 +27,9 @@ test.py
 <img width="500" height="150" alt="library1" src="https://github.com/user-attachments/assets/694783b8-faf5-4b53-be15-3fa9be025a73" />
 
 
-<img width="750" height="400" alt="library1_1" src="https://github.com/user-attachments/assets/17534445-228b-4280-9f69-24f21c2ceeff" /><br><br>
+<img width="750" height="400" alt="library1_1" src="https://github.com/user-attachments/assets/17534445-228b-4280-9f69-24f21c2ceeff" />         <br><br>
 
-<img width="1910" height="540" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /><br><br>
+<img width="1910" height="540" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" />      <br><br>
 
 <img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" /><br><br>
 
