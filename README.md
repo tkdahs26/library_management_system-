@@ -26,21 +26,21 @@ test.py
 
 
 <img width="500" height="150" alt="library1" src="https://github.com/user-attachments/assets/694783b8-faf5-4b53-be15-3fa9be025a73" /> 로그인화면 로그인 성공 시 app.secret_key를 활용해 user_id를 생성하여 페이지 이동 시에도 사용자의 user_id가 유지됩니다.      
-<br><br>
+<br><br><br><br><br><br>
 <img width="500" height="350" alt="library1_1" src="https://github.com/user-attachments/assets/e543e830-cff0-4a29-8c7d-031f2756141b" /> 회원가입 후 db에 정보가 저장됨
-<br><br>
+<br><br><br><br><br><br>
 <img width="910" height="330" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /> 로그인 후 메인화면 render_template을 통해 HTML로 전달 후 html에서 테이블 형식으로 출력   <br><br>
-<br><br>
+<br><br><br><br><br><br>
 <img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" />새책등록했을때 ISBN이 중복될 경우, 신규 행이 만들어지지않고 남은권수가 등록수량만큼 증가함 
-<br><br>
+<br><br><br><br><br><br>
 <img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" />책 db화면 books테이블
-<br><br>
+<br><br><br><br><br><br>
 <img width="1918" height="799" alt="library4" src="https://github.com/user-attachments/assets/636d3a4a-d6ad-4118-bf3c-111b19c16f0f" /> 책 검색 실행 contains함수를 사용해서 harry potter 를 검색했을때 potter만 검색해도 검색결과가 뜨고 JavaScript를 통해 사용자에게 알림
-<br><br>
+<br><br><br><br><br><br>
 <img width="1915" height="749" alt="library5" src="https://github.com/user-attachments/assets/18bc7da5-d114-4851-bb1d-17498ac180cf" />책 대여하기에 성공하면 total_copies값을 -1해서 db에 넘김 남은권수가 하나 줄어듬
-<br><br>
+<br><br><br><br><br><br>
 <img width="1910" height="749" alt="library5_1" src="https://github.com/user-attachments/assets/e31458a5-d794-48c3-a433-bdbb0a045d9d" />대여했을때 유저의 user_id 값과 빌린 책의 book_id 값과 시간을 db loan테이블에 저장
-<br><br>
+<br><br><br><br><br><br>
 <img width="1910" height="749" alt="library6" src="https://github.com/user-attachments/assets/c1d6a59a-20fc-4492-b929-defcaf886b54" />
 로그인한 사용자의 user_id와 loans 테이블의 user_id 를 대조하여 접속한 유저가 대여한 도서를 정확히 보여줌.
 
