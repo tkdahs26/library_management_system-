@@ -27,7 +27,7 @@ test.py
 <img width="500" height="150" alt="library1" src="https://github.com/user-attachments/assets/694783b8-faf5-4b53-be15-3fa9be025a73" />
 
 
-<img width="500" height="150" alt="library1_1" src="https://github.com/user-attachments/assets/17534445-228b-4280-9f69-24f21c2ceeff" /><br><br>
+<img width="750" height="400" alt="library1_1" src="https://github.com/user-attachments/assets/17534445-228b-4280-9f69-24f21c2ceeff" /><br><br>
 
 <img width="1910" height="540" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /><br><br>
 
