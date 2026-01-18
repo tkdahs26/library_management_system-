@@ -41,7 +41,7 @@ JavaScript를 통해 사용자에게 알림
 
 <img width="1915" height="749" alt="library5" src="https://github.com/user-attachments/assets/18bc7da5-d114-4851-bb1d-17498ac180cf" /><br><br>책 대여하기에 성공하면 total_copies값을 -1해서 db에 넘김 남은권수가 하나 줄어듬
 
-<img width="1910" height="749" alt="library5_1" src="https://github.com/user-attachments/assets/e31458a5-d794-48c3-a433-bdbb0a045d9d" /><br><br>대여했을때 유저의 user_id 값과 빌린 book_id 값을 db에 저장
+<img width="1910" height="749" alt="library5_1" src="https://github.com/user-attachments/assets/e31458a5-d794-48c3-a433-bdbb0a045d9d" /><br><br>대여했을때 유저의 user_id 값과 빌린 책의 book_id 값과 시간을 db loan테이블에 저장
 <img width="1910" height="749" alt="library6" src="https://github.com/user-attachments/assets/c1d6a59a-20fc-4492-b929-defcaf886b54" /><br><br>
 load 테이블에서 사용자와 user_id가 일치하는 칼럼을 조회하면 내가 대여한책 조회 함 
 
