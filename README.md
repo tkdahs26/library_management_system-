@@ -39,6 +39,7 @@ test.py
 
 <img width="1910" height="749" alt="library5_1" src="https://github.com/user-attachments/assets/e31458a5-d794-48c3-a433-bdbb0a045d9d" /><br><br>대여했을때 유저의 user_id 값과 빌린 book_id 값을 db에 저장
 <img width="1910" height="749" alt="library6" src="https://github.com/user-attachments/assets/c1d6a59a-20fc-4492-b929-defcaf886b54" /><br><br>
+load 테이블에서 사용자와 user_id가 일치하는 칼럼을 조회하면 내가 대여한책 조회 함 
 
 
 
