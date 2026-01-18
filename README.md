@@ -29,7 +29,7 @@ test.py
 
 <img width="910" height="330" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /> 로그인 후 메인화면     <br><br>
 
-<img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" /><br><br>
+<img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" />새책등록화면 isbn코드가 같으면 수량만 증가하고 다르면 행이 늘어나면서 행에 정보가 작성됨<br><br>
 
 <img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" /><br><br>
 
