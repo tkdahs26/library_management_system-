@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>도서관 시스템 로그인</title>
+</head>
+<body>
+    <h2> 도서관 관리 시스템</h2>
+<form action="/auth/login" method="POST">
+    <input type="text" name="username" placeholder="아이디" required>
+    
+    <input type="password" name="password" placeholder="비밀번호" required>
+    
+    <button type="submit">로그인하기</button>
+    <button type="button" onclick="location.href='/auth/signup'">회원가입</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>책 등록 페이지</title>
+</head>
+<body>
+    <h2> 새 책 등록 (books.html)</h2>
+    <hr>
+    <form action="/books/add" method="POST">
+<p><label>1. 제목: </label><input type="text" name="title" required></p>
+    <p><label>2. 저자: </label><input type="text" name="author" required></p>
+    <p><label>3. ISBN: </label><input type="text" name="isbn" required></p>
+    <p><label>4. 카테고리: </label><input type="text" name="category"></p>
+    <p><label>5. 수량: </label><input type="number" name="total_copies" value="1"></p>
+        <br>
+        <button type="button" onclick="location.href='/home'" style="width: 150px; height: 50px;">취소하기</button>
+        
+        <button type="submit" style="width: 150px; height: 50px; ;  ">등록하기</button>
+    </form>
+</body>
+</html>
