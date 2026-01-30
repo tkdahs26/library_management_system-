@@ -3,21 +3,18 @@ import secrets
 from flask import session
 import redirect
 import render_template
-from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
-from flask import Flask, request, redirect, render_template, url_for
+from flask import Flask, request, redirect, render_template
 app = Flask(__name__)
 app.secret_key =os.urandom(24).hex()
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'library.db')
 
 db = SQLAlchemy(app)
-tokens = {}
 
 
 @app.route('/')
-def index():
-
+def index():    # 기본 홈페이지
     return render_template('login.html')
 
 @app.route('/books', methods=['GET'])
@@ -52,7 +49,7 @@ def signup():
     full_name = request.form.get('full_name')
 
 
-    #init호출
+    #생성자 호출
     new_user = User(username=username,
         password=password,
         email=email,
@@ -76,7 +73,7 @@ def login():
 
     user = User.query.filter_by(username=username).first()
     if user and user.password == password:
-        session['user_id'] = user.id
+        session['user_id'] = user.id # 로그인 정보 세션에 저장
         return redirect('/home')
 
     return """
@@ -89,12 +86,9 @@ def login():
 
 @app.route('/home')
 def home():
+    all_books = Book.query.all()    # DB의 모든 데이터를 가져옴
 
-    all_books = Book.query.all()
-
-    # templates 파일을 열면서 데이터 전달
-    return render_template('home.html', books=all_books)
-
+    return render_template('home.html', books=all_books)    # templates/home.html 파일을 열면서 데이터를 전달함
 
 
 class Book(db.Model):
@@ -108,14 +102,6 @@ class Book(db.Model):
 
 @app.route('/books/add', methods=['POST'])
 def add_book():
-    """
-    auth_header = request.headers.get('Authorization')
-    if not auth_header or "Bearer " not in auth_header:
-        return {"message": "인증 토큰이 없습니다."}, 401
-    token = auth_header.split(" ")[1]
-    if token not in tokens:
-        return {"message": "유효하지 않은 토큰입니다."}, 401  #토큰 인증
-    """
     isbn = request.form.get('isbn')
 
     exist_book = Book.query.filter_by(isbn=isbn).first()
@@ -191,6 +177,7 @@ class Loan(db.Model):
     book = db.relationship('Book', backref='loans') #첫번째매개변수 참조하는 클래스명
 @app.route('/loans', methods=['POST'])
 def add_loan():
+
     current_user_id = session.get('user_id')
     selected_id = request.form.getlist('borrow_id')
     if not selected_id:
