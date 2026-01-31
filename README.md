@@ -1,30 +1,52 @@
 # library_management_system-
 
-Flask와 파이참 인터페이스를 활용한 SQLite를 기반으로 한 RESTful API 도서관 관리 시스템입니다.<br>
-사용자 인증, 도서 등록 및 조회, 도서 재고 관리, 대여 이력 조회,관리 기능을 포함하고 있습니다.<br>
-면접 과제 후 리팩토링하고 입력값을 받도록 업그레이드하였습니다.<br>
+프로젝트 개요
 
-<br><br>
-Python (Flask)
-DB: SQLite
-Tool: PyCharm
+프로젝트는 Flask를 사용해 구현한 SQLite 기반의 도서관 관리 시스템입니다.
+
+면접 과제 이후 리팩토링을 통해 입력 처리와 구조를 개선했으며 
+사용자 로그인부터 도서 등록, 대여 및 재고 관리까지 기본적인 도서 관리 기능을 서버에서 처리하도록 구현했습니다
 
 
-주요기능
-라우팅방식으로 통신했고
-1.사용자관리: 회원가입 및 로그인 (flask.session을 활용)<br>
-2. 도서관리: 도서 등록 및 카테고리별 조건 검색<br>
-3. 대여시스템: 실시간 대여 처리 및 재고 관리, 개인 대여 목록 조회<br>
+주요 기능
+
+사용자 관리
+ 회원가입 및 로그인 기능
+ Flask session을 활용한 로그인 상태 관리
+
+도서 관리
+ 도서 등록
+ 카테고리별 도서 조회
+
+ 대여 시스템
+ 도서 대여
+ 대여 시 재고 자동 관리
+ 개인별 대여 이력 조회
+
+
+구현 특징
+
+ Flask를 사용한 REST API 방식의 서버 구성
+ SQLite를 활용한 데이터 저장
+ 서버에서 사용자를 session에 저장 후 관리
+
 
 
 서버 실행<br>
 main.py
-
-
 기능 테스트<br>
 test.py
 
 
+
+개발 환경
+
+언어: Python
+프레임워크: Flask
+DB: SQLite
+Tool: PyCharm
+
+ 
 
 <img width="500" height="150" alt="library1" src="https://github.com/user-attachments/assets/694783b8-faf5-4b53-be15-3fa9be025a73" /> 로그인화면 로그인 성공 시 app.secret_key를 활용해 user_id를 생성하여 페이지 이동 시에도 사용자의 user_id가 유지됩니다.      
 <br><br><br><br><br><br>
