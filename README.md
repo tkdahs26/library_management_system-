@@ -47,10 +47,18 @@ Tool: PyCharm<br>
 
  
 
-<img width="500" height="150" alt="library1" src="https://github.com/user-attachments/assets/694783b8-faf5-4b53-be15-3fa9be025a73" /> 로그인화면 로그인 성공 시 app.secret_key를 활용해 user_id를 생성하여 페이지 이동 시에도 사용자의 user_id가 유지됩니다.      
+<img width="500" height="150" alt="library1" src="https://github.com/user-attachments/assets/694783b8-faf5-4b53-be15-3fa9be025a73" /> 
+회원가입을 통해 사용자를 등록할 수 있으며 
+로그인시 로그인한 사용자는 서버에서 세션을 통해 식별되며 페이지 이동 시에도 사용자 정보가 유지됩니다.
+회원가입한 사용자 정보는 SQLite 데이터베이스에 저장됩니다.
+
 <br><br><br><br><br><br>
-<img width="500" height="350" alt="library1_1" src="https://github.com/user-attachments/assets/e543e830-cff0-4a29-8c7d-031f2756141b" /> 회원가입 후 db에 정보가 저장됨
+
+<img width="500" height="350" alt="library1_1" src="https://github.com/user-attachments/assets/e543e830-cff0-4a29-8c7d-031f2756141b" /> 회원가입한 사용자 정보는 SQLite 데이터베이스에 저장됩니다.
 <br><br><br><br><br><br>
+
+
+
 <img width="910" height="330" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /> 로그인 후 메인화면 render_template을 통해 HTML로 전달 후 html에서 테이블 형식으로 출력   <br><br>
 <br><br><br><br><br><br>
 <img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" />새책등록했을때 ISBN이 중복될 경우, 신규 행이 만들어지지않고 남은권수가 등록수량만큼 증가함 
