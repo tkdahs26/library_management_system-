@@ -114,7 +114,7 @@ Tool: PyCharm<br>
 
 <br><br><br><br><br><br>
 <img width="1910" height="749" alt="library6" src="https://github.com/user-attachments/assets/c1d6a59a-20fc-4492-b929-defcaf886b54" />
-사용자별 대여 기록을 분류해  사용자는 자신이 대여한 도서 목록만을 확인 할 수 있습니다.
+사용자별 모든 대여 기록을 id값으로 분류해 내대여목옥 클릭시 사용자는 자신이 대여한 도서 만을 확인 할 수 있습니다.
 
 
 
