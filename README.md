@@ -106,10 +106,15 @@ Tool: PyCharm<br>
 
 <br><br><br><br><br><br>
 <img width="1910" height="749" alt="library5_1" src="https://github.com/user-attachments/assets/e31458a5-d794-48c3-a433-bdbb0a045d9d" />
-대여했을때 유저의 user_id 값과 빌린 책의 book_id 값과 시간을 db loan테이블에 저장
+도서를 대여하면 대여 정보가 서버에 저장되며 대여한 도서와 대여 시점이 함께 저장.
+
+
+
+
+
 <br><br><br><br><br><br>
 <img width="1910" height="749" alt="library6" src="https://github.com/user-attachments/assets/c1d6a59a-20fc-4492-b929-defcaf886b54" />
-로그인한 사용자의 user_id와 loans 테이블의 user_id 를 대조하여 접속한 유저가 대여한 도서를 정확히 보여줌.
+사용자별 대여 기록을 분류해 로그인한 사용자는 자신이 대여한 도서 목록만 조회할 수 있습니다.
 
 
 
