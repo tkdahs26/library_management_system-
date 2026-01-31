@@ -79,13 +79,34 @@ Tool: PyCharm<br>
 
 
 <br><br><br><br><br><br>
-<img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" />책 등록하면 db에 등록됩니다  
+<img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" />
+책 등록하면 db에 등록됩니다  
 <br><br><br><br><br><br>
-<img width="1918" height="799" alt="library4" src="https://github.com/user-attachments/assets/636d3a4a-d6ad-4118-bf3c-111b19c16f0f" /> 책 검색 실행 contains함수를 사용해서 harry potter 를 검색했을때 potter만 검색해도 검색결과가 뜨고 JavaScript를 통해 사용자에게 알림
+<img width="1918" height="799" alt="library4" src="https://github.com/user-attachments/assets/636d3a4a-d6ad-4118-bf3c-111b19c16f0f" /> 
+
+도서 제목의 일부만 입력해도 해당 도서를 검색할 수 있도록 구현했습니다.
+
+
+
+
+<br><br><br><br><br>
+
+
+
+
+
+
+
+
+<img width="1915" height="749" alt="library5" src="https://github.com/user-attachments/assets/18bc7da5-d114-4851-bb1d-17498ac180cf" />
+검색 결과에서 도서를 선택해 대여하면 대여가 완료되며 해당 도서의 남은 재고 수량이 즉시 감소하는 것을 화면에서 확인할 수 있습니다.
+
+
+
+
 <br><br><br><br><br><br>
-<img width="1915" height="749" alt="library5" src="https://github.com/user-attachments/assets/18bc7da5-d114-4851-bb1d-17498ac180cf" />책 대여하기에 성공하면 total_copies값을 -1해서 db에 넘김 남은권수가 하나 줄어듬
-<br><br><br><br><br><br>
-<img width="1910" height="749" alt="library5_1" src="https://github.com/user-attachments/assets/e31458a5-d794-48c3-a433-bdbb0a045d9d" />대여했을때 유저의 user_id 값과 빌린 책의 book_id 값과 시간을 db loan테이블에 저장
+<img width="1910" height="749" alt="library5_1" src="https://github.com/user-attachments/assets/e31458a5-d794-48c3-a433-bdbb0a045d9d" />
+대여했을때 유저의 user_id 값과 빌린 책의 book_id 값과 시간을 db loan테이블에 저장
 <br><br><br><br><br><br>
 <img width="1910" height="749" alt="library6" src="https://github.com/user-attachments/assets/c1d6a59a-20fc-4492-b929-defcaf886b54" />
 로그인한 사용자의 user_id와 loans 테이블의 user_id 를 대조하여 접속한 유저가 대여한 도서를 정확히 보여줌.
