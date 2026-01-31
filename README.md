@@ -54,14 +54,30 @@ Tool: PyCharm<br>
 
 <br><br><br><br><br><br>
 
-<img width="500" height="350" alt="library1_1" src="https://github.com/user-attachments/assets/e543e830-cff0-4a29-8c7d-031f2756141b" /> 회원가입한 사용자 정보는 SQLite 데이터베이스에 저장됩니다.
+<img width="500" height="350" alt="library1_1" src="https://github.com/user-attachments/assets/e543e830-cff0-4a29-8c7d-031f2756141b" /> 
+회원가입한 사용자 정보는 SQLite 데이터베이스에 저장됩니다.
 <br><br><br><br><br><br>
 
 
 
-<img width="910" height="330" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /> 로그인 후 메인화면 render_template을 통해 HTML로 전달 후 html에서 테이블 형식으로 출력   <br><br>
+<img width="910" height="330" alt="library2" src="https://github.com/user-attachments/assets/e27947ab-1ff3-4db7-818d-b9a380595891" /> 
+로그인 후 메인화면
+<br>
+로그인 후 메인 페이지에서
+등록된 도서 목록을 테이블 형태로 확인할 수 있습니다.
 <br><br><br><br><br><br>
-<img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" />새책등록했을때 ISBN이 중복될 경우, 신규 행이 만들어지지않고 남은권수가 등록수량만큼 증가함 
+
+<img width="1918" height="799" alt="library3" src="https://github.com/user-attachments/assets/188237aa-5f0e-4353-8e2c-c526f9f413a2" />
+
+
+새 책을 등록할 수 있으며 이미 등록된 ISBN인 경우에는 새 레코드를 생성하지 않고 기존 도서의 재고 수량만 증가하도록 구현했습니다.
+
+
+
+
+
+
+
 <br><br><br><br><br><br>
 <img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" />책 db화면 books테이블
 <br><br><br><br><br><br>
