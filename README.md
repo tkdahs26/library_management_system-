@@ -79,7 +79,7 @@ Tool: PyCharm<br>
 
 
 <br><br><br><br><br><br>
-<img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" />책 db화면 books테이블
+<img width="1918" height="799" alt="library3_1" src="https://github.com/user-attachments/assets/095bc954-2392-4a9c-acb2-4e38c75eb37d" />책 등록하면 db에 등록됩니다  
 <br><br><br><br><br><br>
 <img width="1918" height="799" alt="library4" src="https://github.com/user-attachments/assets/636d3a4a-d6ad-4118-bf3c-111b19c16f0f" /> 책 검색 실행 contains함수를 사용해서 harry potter 를 검색했을때 potter만 검색해도 검색결과가 뜨고 JavaScript를 통해 사용자에게 알림
 <br><br><br><br><br><br>
