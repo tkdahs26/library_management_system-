@@ -26,7 +26,6 @@
 ### 구현 특징<br>
 
  Flask를 활용해 서버 , SQLAlchemy ORM을 활용해 DB와 통신<br>
- SQLite를 활용한 데이터 저장<br>
  서버에서 사용자를 session에 저장 후 관리<br>
  도서 대여 시 재고 수량을 즉시 반영
 
